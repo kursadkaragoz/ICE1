@@ -19,5 +19,7 @@ public class CardDealer
         
         
         System.out.println(eightHearts.getSuit() + " " + eightHearts.getValue());
+        
+        Card sixSpades = new Card("Spades", 6);
     }
 }
