@@ -18,6 +18,6 @@ public class CardDealer
         Card eightHearts = new Card("Hearts", 8);
         
         
-        System.out.println(getSuit() + " " + getValue());
+        System.out.println(eightHearts.getSuit() + " " + eightHearts.getValue());
     }
 }
